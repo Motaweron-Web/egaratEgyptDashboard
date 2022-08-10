@@ -21,6 +21,14 @@
             </a>
         </li>
 
+
+        <li class="slide">
+            <a class="side-menu__item" href="{{route('admins.index')}}">
+                <i class="fe fe-align-justify side-menu__icon"></i>
+                <span class="side-menu__label">التصنيفات</span>
+            </a>
+        </li>
+
 {{--        <li class="slide">--}}
 {{--            <a class="side-menu__item" href="{{route('sliders.index')}}">--}}
 {{--                <i class="fe fe-camera side-menu__icon"></i>--}}

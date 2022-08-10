@@ -20,31 +20,17 @@ Route::group(['prefix'=>'admin','middleware'=>'auth:admin'],function (){
     Route::get('my_profile','AdminController@myProfile')->name('myProfile');
 
 
-    #### Services ####
-    Route::resource('services','ServiceController');
-    Route::post('services.delete','ServiceController@delete')->name('services.delete');
-
-
-
-
-
-
-
-
-
-
-
-
     #### Auth ####
     Route::get('logout', 'AuthController@logout')->name('admin.logout');
 
+############################################################################################
 
 
    ### Points #######
 
 
-   Route::resource('points','PointController');
-    Route::POST('delete_point','PointController@delete')->name('delete_point');
+   Route::resource('category','CategoryController');
+    Route::POST('delete_category','CategoryController@delete')->name('delete_category');
 
 
 
