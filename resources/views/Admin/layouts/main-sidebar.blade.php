@@ -23,11 +23,29 @@
 
 
         <li class="slide">
-            <a class="side-menu__item" href="{{route('admins.index')}}">
+            <a class="side-menu__item" href="{{route('category.index')}}">
                 <i class="fe fe-align-justify side-menu__icon"></i>
                 <span class="side-menu__label">التصنيفات</span>
             </a>
         </li>
+
+        <li class="slide">
+            <a class="side-menu__item" data-toggle="slide" href="#">
+                <i class="fe fe-settings side-menu__icon"></i>
+                <span class="side-menu__label">الاعدادات</span><i class="angle fa fa-angle-left"></i>
+            </a>
+            <ul class="slide-menu">
+
+                <li><a href="{{route('aboutUs.index')}}" class="slide-item"> من نحن</a></li>
+                <li><a href="{{route('admin.social')}}" class="slide-item"> وسائل التواصل</a></li>
+
+
+
+
+            </ul>
+        </li>
+
+
 
 {{--        <li class="slide">--}}
 {{--            <a class="side-menu__item" href="{{route('sliders.index')}}">--}}

@@ -1,29 +1,21 @@
-@extends('admin.layouts.inc.app')
-@section('class')
-@endsection
-@section('style')
-
-
-@endsection
-
+@extends('Admin/layouts/master')
+@section('title') وسائل التواصل @endsection
+@section('page_name') وسائل التواصل @endsection
 @section('content')
-
 
     <div class="d-flex justify-content-between align-items-center mb-4">
         <ol class="breadcrumb ">
-            <li class="breadcrumb-item"><a href="{{route('admin.AppSettingSocial')}}"> وسائل التواصل الاجتماعي </a>
+            <li class="breadcrumb-item"><a href="{{route('admin.social')}}"> وسائل التواصل الاجتماعي </a>
             </li>
         </ol>
         <!-- <button class="btn btn-dark" onclick="history.back()"> عودة </button> -->
     </div>
     <!-- end breadcrumb -->
     <!-- edit Service -->
-    @include('admin.alerts.success')
-    @include('admin.alerts.errors')
 
     <section class="editService">
         @foreach($AppSettingSocials as $AppSettingSocial)
-            <form action="{{route('admin.AppSettingSocial.update',$AppSettingSocial->id)}}" method="POST">
+            <form action="{{route('social.update',$AppSettingSocial->id)}}" method="POST">
                 @csrf
                 <!-- twitter -->
                 <div class="social">

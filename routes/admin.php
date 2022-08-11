@@ -26,15 +26,21 @@ Route::group(['prefix'=>'admin','middleware'=>'auth:admin'],function (){
 ############################################################################################
 
 
-   ### Points #######
+   ### Category #######
 
 
    Route::resource('category','CategoryController');
     Route::POST('delete_category','CategoryController@delete')->name('delete_category');
 
 
+###### AboutUs#####
+    Route::get('aboutUs','About_usController@aboutUs')->name('aboutUs.index');
+    Route::post('updateAbout','About_usController@updateAbout')->name('aboutUs.update');
 
 
+    ###### SocialMedia #####
+    Route::get('SocialMedia','SocialmediaController@index')->name('admin.social');
+    Route::post('updateSocialMedia','SocialmediaController@update')->name('social.update');
 
 
 });
