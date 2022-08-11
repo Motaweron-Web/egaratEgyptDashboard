@@ -40,6 +40,10 @@
                 <li><a href="{{route('admin.social')}}" class="slide-item"> وسائل التواصل</a></li>
 
 
+                <li><a href="{{route('admin.social')}}" class="slide-item"> العملة</a></li>
+                <li><a href="{{route('admin.social')}}" class="slide-item"> حسابى </a></li>
+
+
 
 
             </ul>
