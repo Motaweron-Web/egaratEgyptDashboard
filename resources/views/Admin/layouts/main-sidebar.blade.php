@@ -9,9 +9,9 @@
     <ul class="side-menu">
         <li><h3>العناصر</h3></li>
         <li class="slide">
-            <a class="side-menu__item" href="{{route('adminHome')}}">
-                <i class="icon icon-home side-menu__icon"></i>
-                <span class="side-menu__label">الرئيسية</span>
+            <a class="side-menu__item" href="">
+                <i class="fa fe-plus side-menu__icon"></i>
+                <span class="side-menu__label">اضافة اعلان</span>
             </a>
         </li>
         <li class="slide">
@@ -20,6 +20,10 @@
                 <span class="side-menu__label">المشرفين</span>
             </a>
         </li>
+
+
+
+
 
 
         <li class="slide">
@@ -38,9 +42,8 @@
 
                 <li><a href="{{route('aboutUs.index')}}" class="slide-item"> من نحن</a></li>
                 <li><a href="{{route('admin.social')}}" class="slide-item"> وسائل التواصل</a></li>
-
-
-
+                <li><a href="" class="slide-item">  اتصل بنا</a></li>
+                <li><a href="{" class="slide-item">  العملة</a></li>
 
             </ul>
         </li>
