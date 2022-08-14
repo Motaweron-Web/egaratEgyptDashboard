@@ -12,11 +12,15 @@ return array(
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Events\\NewMessage' => $baseDir . '/app/Events/NewMessage.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
+    'App\\Http\\Controllers\\Admin\\About_usController' => $baseDir . '/app/Http/Controllers/Admin/About_usController.php',
     'App\\Http\\Controllers\\Admin\\AdminController' => $baseDir . '/app/Http/Controllers/Admin/AdminController.php',
     'App\\Http\\Controllers\\Admin\\AdminDataManagementController' => $baseDir . '/app/Http/Controllers/Admin/AdminDataManagementController.php',
     'App\\Http\\Controllers\\Admin\\AuthController' => $baseDir . '/app/Http/Controllers/Admin/AuthController.php',
     'App\\Http\\Controllers\\Admin\\CategoryController' => $baseDir . '/app/Http/Controllers/Admin/CategoryController.php',
+<<<<<<< HEAD
     'App\\Http\\Controllers\\Admin\\RealEstateController' => $baseDir . '/app/Http/Controllers/Admin/RealEstateController.php',
+=======
+>>>>>>> 91fe9df0711ab4431e8218237964c194205d772a
     'App\\Http\\Controllers\\Admin\\SocialmediaController' => $baseDir . '/app/Http/Controllers/Admin/SocialmediaController.php',
     'App\\Http\\Controllers\\Admin\\UserController' => $baseDir . '/app/Http/Controllers/Admin/UserController.php',
     'App\\Http\\Controllers\\Api\\AuthController' => $baseDir . '/app/Http/Controllers/Api/AuthController.php',
@@ -41,10 +45,17 @@ return array(
     'App\\Http\\Requests\\StoreProject' => $baseDir . '/app/Http/Requests/StoreProject.php',
     'App\\Http\\Requests\\StoreService' => $baseDir . '/app/Http/Requests/StoreService.php',
     'App\\Http\\Requests\\StoreSite' => $baseDir . '/app/Http/Requests/StoreSite.php',
+<<<<<<< HEAD
     'App\\Models\\Admin' => $baseDir . '/app/Models/Admin.php',
     'App\\Models\\Category' => $baseDir . '/app/Models/Category.php',
     'App\\Models\\RealEstate' => $baseDir . '/app/Models/RealEstate.php',
     'App\\Models\\RealEstateImage' => $baseDir . '/app/Models/RealEstateImage.php',
+=======
+    'App\\Models\\About_us' => $baseDir . '/app/Models/About_us.php',
+    'App\\Models\\Admin' => $baseDir . '/app/Models/Admin.php',
+    'App\\Models\\Category' => $baseDir . '/app/Models/Category.php',
+    'App\\Models\\Setting' => $baseDir . '/app/Models/Setting.php',
+>>>>>>> 91fe9df0711ab4431e8218237964c194205d772a
     'App\\Models\\Social' => $baseDir . '/app/Models/Social.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'App\\Providers\\AuthServiceProvider' => $baseDir . '/app/Providers/AuthServiceProvider.php',

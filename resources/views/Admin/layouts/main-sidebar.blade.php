@@ -9,9 +9,9 @@
     <ul class="side-menu">
         <li><h3>العناصر</h3></li>
         <li class="slide">
-            <a class="side-menu__item" href="{{route('adminHome')}}">
-                <i class="icon icon-home side-menu__icon"></i>
-                <span class="side-menu__label">الرئيسية</span>
+            <a class="side-menu__item" href="">
+                <i class="fa fe-plus side-menu__icon"></i>
+                <span class="side-menu__label">اضافة اعلان</span>
             </a>
         </li>
         <li class="slide">
@@ -22,24 +22,47 @@
         </li>
 
 
+
+
+
+
         <li class="slide">
-            <a class="side-menu__item" href="{{route('admins.index')}}">
+            <a class="side-menu__item" href="{{route('category.index')}}">
                 <i class="fe fe-align-justify side-menu__icon"></i>
                 <span class="side-menu__label">التصنيفات</span>
             </a>
         </li>
 
         <li class="slide">
+<<<<<<< HEAD
             <a class="side-menu__item" href="{{route('real_estate.index')}}">
                 <i class="fe fe-align-justify side-menu__icon"></i>
                 <span class="side-menu__label">العقارات</span>
             </a>
+=======
+            <a class="side-menu__item" data-toggle="slide" href="#">
+                <i class="fe fe-settings side-menu__icon"></i>
+                <span class="side-menu__label">الاعدادات</span><i class="angle fa fa-angle-left"></i>
+            </a>
+            <ul class="slide-menu">
+
+                <li><a href="{{route('aboutUs.index')}}" class="slide-item"> من نحن</a></li>
+                <li><a href="{{route('admin.social')}}" class="slide-item"> وسائل التواصل</a></li>
+                <li><a href="" class="slide-item">  اتصل بنا</a></li>
+                <li><a href="{" class="slide-item">  العملة</a></li>
+
+            </ul>
+>>>>>>> 91fe9df0711ab4431e8218237964c194205d772a
         </li>
 
 
 
+<<<<<<< HEAD
 
         {{--        <li class="slide">--}}
+=======
+{{--        <li class="slide">--}}
+>>>>>>> 91fe9df0711ab4431e8218237964c194205d772a
 {{--            <a class="side-menu__item" href="{{route('sliders.index')}}">--}}
 {{--                <i class="fe fe-camera side-menu__icon"></i>--}}
 {{--                <span class="side-menu__label">البانر المتحرك</span>--}}

@@ -28,11 +28,11 @@ class SocialmediaController extends Controller
                 'link' => $request->link
             ]);
             toastr()->success('تم تحديث الرابط بنجاح', 'تم بنجاح');
-            return redirect()->route('admin.AppSettingSocial');
+            return redirect()->route('admin.social');
         }
 
         catch (\Exception $exception) {
             toastr()->error('حدث خطا ما برجاء المحاوله لاحقا', 'حدث خطا');
-            return redirect()->route('admin.AppSettingSocial');
+            return redirect()->route('admin.social');
         }}
 }

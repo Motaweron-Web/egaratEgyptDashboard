@@ -17,6 +17,7 @@ Route::get('/','Site\SiteController@index')->name('site_egareat_egypt');
 
 
 
+
 //Route::get('egaratMasr','Site/SiteController@index');
 
 

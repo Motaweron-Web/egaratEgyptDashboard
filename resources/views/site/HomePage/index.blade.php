@@ -314,53 +314,29 @@
                     <a
                         href="#!"
                         class="city"
-                        style="background-image: url(img/home.webp)"
+                        style="background-image: url({{asset('assets/site/img/home.webp')}})"
                     >
                         <div class="info">
                             <h4 class="name">الساحل الشمالي</h4>
                             <p>الأسعار تبدأ من 1400 جنيه</p>
                         </div>
                     </a>
+
+                    @foreach($categories as $category)
+
+
                     <a
                         href="#!"
                         class="city"
-                        style="background-image: url(img/home.webp)"
+                        style="background-image: url({{$category->image}})"
                     >
                         <div class="info">
-                            <h4 class="name">مارينا</h4>
+                            <h4 class="name">{{$category->name}}</h4>
                             <p>الأسعار تبدأ من 1400 جنيه</p>
                         </div>
                     </a>
-                    <a
-                        href="#!"
-                        class="city"
-                        style="background-image: url(img/home.webp)"
-                    >
-                        <div class="info">
-                            <h4 class="name">مراسي</h4>
-                            <p>الأسعار تبدأ من 1400 جنيه</p>
-                        </div>
-                    </a>
-                    <a
-                        href="#!"
-                        class="city"
-                        style="background-image: url(img/home.webp)"
-                    >
-                        <div class="info">
-                            <h4 class="name">أمواج</h4>
-                            <p>الأسعار تبدأ من 1400 جنيه</p>
-                        </div>
-                    </a>
-                    <a
-                        href="#!"
-                        class="city"
-                        style="background-image: url(img/home.webp)"
-                    >
-                        <div class="info">
-                            <h4 class="name">هاسييندا</h4>
-                            <p>الأسعار تبدأ من 1400 جنيه</p>
-                        </div>
-                    </a>
+                    @endforeach
+
                 </div>
             </div>
         </section>

@@ -1,5 +1,5 @@
 @extends('Admin/layouts/master')
-@section('title') {{$setting->title}} | ماذا عنا @endsection
+@section('title')  ماذا عنا @endsection
 @section('page_name') ماذا عنا @endsection
 @section('content')
     <script src="https://cdn.ckeditor.com/ckeditor5/12.0.0/classic/ckeditor.js"></script>
@@ -20,29 +20,21 @@
             <form action="{{route('aboutUs.update')}}" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="card">
-                    <div class="card-header">
-                        <h3 class="mb-0 card-title"> بيانات {{($setting->title) ?? ''}}</h3>
-                    </div>
+
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label class="form-label">العنوان بالعربي</label>
-                                    <input required type="text" class="form-control" name="title_ar"
-                                           placeholder="" value="{{($row->title_ar) ?? ''}}">
+                                    <label class="form-label">العنوان</label>
+                                    <input required type="text" class="form-control" name="title"
+                                           placeholder="" value="{{($row->title) ?? ''}}">
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label class="form-label">العنوان بالانجليزي</label>
-                                    <input required type="text" class="form-control" name="title_en"
-                                           placeholder="" value="{{($row->title_en) ?? ''}}">
-                                </div>
-                            </div>
+
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label class="form-label">الوصف بالعربي</label>
-                                    <textarea rows="4" name="desc_ar" id="editor">{!! ($row->desc_ar) ?? '' !!}</textarea>
+                                    <label class="form-label">الوصف </label>
+                                    <textarea rows="4" name="desc" id="editor">{!! ($row->desc) ?? '' !!}</textarea>
                                     <script>
                                         ClassicEditor
                                             .create(document.querySelector('#editor'))
@@ -52,19 +44,7 @@
                                     </script>
                                 </div>
                             </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label class="form-label">الوصف بالانجليزي</label>
-                                    <textarea rows="4" name="desc_en" id="editor2">{!! ($row->desc_en) ?? '' !!}</textarea>
-                                    <script>
-                                        ClassicEditor
-                                            .create(document.querySelector('#editor2'))
-                                            .catch(error => {
-                                                console.error(error);
-                                            });
-                                    </script>
-                                </div>
-                            </div>
+
                             <div class="col-md-12 ">
                                 <div class="form-group">
                                     <label class="form-label">الصورة</label>

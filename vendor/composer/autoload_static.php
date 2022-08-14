@@ -750,11 +750,15 @@ class ComposerStaticInitebadef4a2fe32872459d1dcc93c1fe4b
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Events\\NewMessage' => __DIR__ . '/../..' . '/app/Events/NewMessage.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Http\\Controllers\\Admin\\About_usController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/About_usController.php',
         'App\\Http\\Controllers\\Admin\\AdminController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/AdminController.php',
         'App\\Http\\Controllers\\Admin\\AdminDataManagementController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/AdminDataManagementController.php',
         'App\\Http\\Controllers\\Admin\\AuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/AuthController.php',
         'App\\Http\\Controllers\\Admin\\CategoryController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/CategoryController.php',
+<<<<<<< HEAD
         'App\\Http\\Controllers\\Admin\\RealEstateController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/RealEstateController.php',
+=======
+>>>>>>> 91fe9df0711ab4431e8218237964c194205d772a
         'App\\Http\\Controllers\\Admin\\SocialmediaController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/SocialmediaController.php',
         'App\\Http\\Controllers\\Admin\\UserController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/UserController.php',
         'App\\Http\\Controllers\\Api\\AuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/AuthController.php',
@@ -779,10 +783,17 @@ class ComposerStaticInitebadef4a2fe32872459d1dcc93c1fe4b
         'App\\Http\\Requests\\StoreProject' => __DIR__ . '/../..' . '/app/Http/Requests/StoreProject.php',
         'App\\Http\\Requests\\StoreService' => __DIR__ . '/../..' . '/app/Http/Requests/StoreService.php',
         'App\\Http\\Requests\\StoreSite' => __DIR__ . '/../..' . '/app/Http/Requests/StoreSite.php',
+<<<<<<< HEAD
         'App\\Models\\Admin' => __DIR__ . '/../..' . '/app/Models/Admin.php',
         'App\\Models\\Category' => __DIR__ . '/../..' . '/app/Models/Category.php',
         'App\\Models\\RealEstate' => __DIR__ . '/../..' . '/app/Models/RealEstate.php',
         'App\\Models\\RealEstateImage' => __DIR__ . '/../..' . '/app/Models/RealEstateImage.php',
+=======
+        'App\\Models\\About_us' => __DIR__ . '/../..' . '/app/Models/About_us.php',
+        'App\\Models\\Admin' => __DIR__ . '/../..' . '/app/Models/Admin.php',
+        'App\\Models\\Category' => __DIR__ . '/../..' . '/app/Models/Category.php',
+        'App\\Models\\Setting' => __DIR__ . '/../..' . '/app/Models/Setting.php',
+>>>>>>> 91fe9df0711ab4431e8218237964c194205d772a
         'App\\Models\\Social' => __DIR__ . '/../..' . '/app/Models/Social.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
