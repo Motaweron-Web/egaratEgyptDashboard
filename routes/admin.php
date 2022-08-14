@@ -43,6 +43,10 @@ Route::group(['prefix'=>'admin','middleware'=>'auth:admin'],function (){
     Route::POST('real_estate/delete','RealEstateController@delete')->name('delete_real_estate');
 
 
+####  اتصل بنا ####
+    Route::resource('contact_us','ContactUsController');
+    Route::POST('contact_us/delete','ContactUsController@delete')->name('delete_contact_us');
+
 
 
 

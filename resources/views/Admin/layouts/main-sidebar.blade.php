@@ -48,7 +48,7 @@
 
                 <li><a href="{{route('aboutUs.index')}}" class="slide-item"> من نحن</a></li>
                 <li><a href="{{route('admin.social')}}" class="slide-item"> وسائل التواصل</a></li>
-                <li><a href="" class="slide-item">  اتصل بنا</a></li>
+                <li><a href="{{route('contact_us.index')}}" class="slide-item">  اتصل بنا</a></li>
                 <li><a href="" class="slide-item">  حسابى</a></li>
 
             </ul>
