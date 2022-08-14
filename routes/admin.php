@@ -34,6 +34,14 @@ Route::group(['prefix'=>'admin','middleware'=>'auth:admin'],function (){
 
 
 
+ ###### العقارات #######
+
+    Route::resource('real_estate','RealEstateController');
+    Route::POST('real_estate/delete','RealEstateController@delete')->name('delete_real_estate');
+
+
+
+
 
 
 

@@ -29,7 +29,17 @@
             </a>
         </li>
 
-{{--        <li class="slide">--}}
+        <li class="slide">
+            <a class="side-menu__item" href="{{route('real_estate.index')}}">
+                <i class="fe fe-align-justify side-menu__icon"></i>
+                <span class="side-menu__label">العقارات</span>
+            </a>
+        </li>
+
+
+
+
+        {{--        <li class="slide">--}}
 {{--            <a class="side-menu__item" href="{{route('sliders.index')}}">--}}
 {{--                <i class="fe fe-camera side-menu__icon"></i>--}}
 {{--                <span class="side-menu__label">البانر المتحرك</span>--}}

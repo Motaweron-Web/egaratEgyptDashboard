@@ -5,12 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Category extends Model
+class FeaturesRealEstate extends Model
 {
     use HasFactory;
 
     protected $guarded=[];
-    protected $table='category';
-
-
+    protected $table='features_real_estate';
 }
